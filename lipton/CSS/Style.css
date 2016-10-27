@@ -1,0 +1,541 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	background: url(../Images/Background/Body.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body
+{
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	overflow-y: scroll;
+	margin: 0px auto;
+}
+video
+{
+    margin-bottom: 20px;
+}
+.header
+{
+	background: url(../Images/Background/Header.png) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-bottom: 4px solid rgba(216, 134, 21, 1);
+}
+.header_wrapper
+{
+    width: 950px;
+    margin: 0px auto;
+}
+.header_left
+{
+    background-color: rgba(80, 80, 80, 0.3);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-top: 5px;
+}
+.header_left ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.header_left ul li
+{
+    padding-left: 2px;
+    padding-right: 2px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bolder;
+    text-align: center;
+}
+.header_left ul li a img
+{ 
+    vertical-align: middle;
+}
+#header_signup
+{
+    color: #FFF;
+    text-decoration: none;
+}
+#header_signup:hover
+{
+    text-decoration: underline;
+}
+#header_logo
+{
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.menubar
+{
+	width: 950px;
+    background-color: rgba(195, 17, 26, 1);
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 0px;
+}
+.menubar ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.menubar ul li 
+{
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 3px 0px rgba(50, 50, 50, 0.5);
+    border-left: 1px solid rgba(206, 138, 134, 1);
+    border-right: 1px solid rgba(141, 20, 26, 1);
+    width: 188px;
+}
+.menubar ul li:hover 
+{
+    background-color: rgba(148, 3, 12, 1);
+}
+.menubar ul li a 
+{
+    color: #FFF;
+    display: block;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-decoration: none;
+}
+.menubar ul li:nth-child(1)
+{
+	border-bottom-left-radius: 10px;
+	border-left: 1px hidden rgba(206, 138, 134, 1);
+}
+.menubar ul li:nth-last-child(1)
+{
+	border-bottom-right-radius: 10px;
+	border-right: 1px hidden rgba(141, 20, 26, 1);
+}
+.menubar ul li#active
+{
+	background-color: rgba(148, 3, 12, 1);
+}
+.menubar ul li#active a
+{
+	color: rgba(255, 204, 3, 1);
+}
+.slideshowbar
+{
+    position: relative;
+    width:1200px;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainbar
+{
+    width: 950px;
+    margin: 0px auto;
+    font-family: Trebuchet MS;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mainbar_mainads table 
+{
+    width: 100%;
+}
+.mainbar_mainads table td
+{
+    width: 34%;
+}
+.mainbar_mainsubads table,
+.mainbar_applications table
+{
+    width: 100%;
+}
+.mainbar_mainsubads table td,
+.mainbar_applications table td
+{
+    width: 25%;
+}
+.mainbar_ads
+{
+    width: 300px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(238, 200, 26, 1);
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px rgba(178, 132, 0, 1);
+    padding-bottom: 10px;
+    margin: 0px auto;
+}
+.mainbar_subads
+{
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(238, 200, 26, 1);
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px rgba(178, 132, 0, 1);
+    padding-bottom: 10px;
+    margin: 0px auto;
+}
+#ads_header
+{
+    background-color: rgba(255, 221, 50, 1);
+    border-radius: 8px 8px 0px 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 12px;
+    padding-bottom: 1px;
+    text-align: center;
+    height: 50px;
+}
+#ads_image
+{
+    padding: 0px;
+    margin-bottom: 2px;
+}
+#ads_images
+{
+    padding: 0px;
+    margin-bottom: 2px;
+    border-top: 3px solid rgba(170, 170, 170, 1);
+}
+#ads_details
+{
+    padding: 20px;
+    font-size: 14px;
+    min-height: 65px;
+}
+#ads_subdetails
+{
+	padding: 20px;
+    font-size: 14px;
+    min-height: 160px;
+}
+#ads_input
+{
+    margin: 10px;
+}
+#ads_input #submitbutton
+{
+    cursor: pointer;
+    background-color: rgba(203, 6, 26, 1);
+    border: 1px solid rgba(203, 6, 26, 1);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.5);
+    font-weight: bold;
+}
+#ads_input #submitbutton:focus
+{
+    outline: none;
+}
+.mainbar_items table
+{
+    margin-top: 15px;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+.mainbar_items table td
+{
+	width: 140px;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: top;
+}
+.mainbar_steps
+{
+    width: 300px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(170, 170, 170, 1);
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px rgba(170, 170, 170, 1);
+    padding-bottom: 10px;
+    min-height: 700px;
+    margin: 0px auto;
+}
+.mainbar_steps #ads_images table
+{
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+.mainbar_steps #ads_images table td
+{
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;
+}
+.mainbar_link
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mainbar_link ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.mainbar_link ul li 
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: rgba(210, 54, 43, 1);
+}
+.mainbar_link ul li a 
+{
+    color: rgba(210, 54, 43, 1);
+    display: block;
+    text-decoration: none;
+}
+.mainbar_link ul li a:hover 
+{
+    text-decoration: underline;
+}
+.mainbar_aboutus,
+.mainbar_applications
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#mainbar_header
+{
+    color: rgba(203, 6, 26, 1);
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#mainbar_subheader
+{
+    color: rgba(203, 6, 26, 1);
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#mainbar_subsubheader
+{
+    color: rgba(203, 6, 26, 1);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#mainbar_note
+{
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+.mainbar_aboutus p
+{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.mainbar_aboutus table
+{
+    width: 75%;
+    border-collapse: collapse;
+    display: relative;
+    margin: 0px auto;
+}
+.mainbar_aboutus table tr th
+{
+    width: 250px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.mainbar_aboutus table tr td
+{
+    padding-left: 40px;
+}
+.mainbar_aboutus table tr td #submitbutton
+{
+    cursor: pointer;
+    background-color: rgba(203, 6, 26, 1);
+    border: 1px solid rgba(203, 6, 26, 1);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.5);
+    font-weight: bold;
+}
+.mainbar_aboutus table tr td #submitbutton:focus
+{
+    outline: none;
+}
+.mainbar_signup,
+.mainbar_aboutus,
+.mainbar_applications
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mainbar_form,
+.mainbar_developers
+{    
+    border-radius: 5px 5px 0px 0px;
+    border-top: 8px solid rgba(255,211,0, 1);
+    border-right: 1px solid rgba(210,210,210, 1);
+    border-left: 1px solid rgba(210,210,210, 1);
+    border-bottom: 3px solid rgba(178,173,155, 1);
+    margin-top:0;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+.mainbar_form input[type="text"],
+.mainbar_form input[type="email"],
+.mainbar_form input[type="date"],
+.mainbar_form select
+{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #000000;
+    padding-left: 3px;
+}
+.mainbar_form input[type="radio"],
+.mainbar_form input[type="checkbox"]
+{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.mainbar_form input[type="submit"]
+{
+    cursor: pointer;
+    background-color: rgba(203, 6, 26, 1);
+    border: transparent;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(50, 50, 50, 0.5);
+}
+.mainbar_form input[type="text"]:focus,
+.mainbar_form select:focus
+{
+    outline: none;
+    border: 1px solid rgba(170, 102, 102, 1);
+}
+.mainbar_form input[type="submit"]:focus
+{
+    outline: none;
+}
+.mainbar_form span
+{
+	color: #cb061a;
+    font-size: 15px;
+}
+.mainbar_form span img
+{
+    vertical-align: middle;
+    margin-right: 6px;
+}
+#form_header
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+#p_link
+{
+    color: rgba(203, 6, 26, 1);
+    text-decoration: none;
+}
+#p_link:hover
+{
+    text-decoration: underline;
+}
+.footer
+{
+    border-top: 5px solid rgb(153,135,62);
+    width: 100%;
+    background-color: rgb(255, 226, 106);
+    margin-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+.footer_menus ul li a img
+{
+    vertical-align: middle;
+}
+.footer_menus ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer_menus ul li 
+{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid rgba(126, 96, 0, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.footer_menus ul li a 
+{
+    color: rgba(126, 96, 0, 1);
+    display: block;
+    text-decoration: none;
+}
+.footer_menus ul li a:hover 
+{
+    color: rgba(56, 56, 56, 1);
+    text-decoration: underline;
+}
+.footer_menus ul li:nth-last-child(1)
+{
+    border-right: 1px hidden rgba(126, 96, 0, 1);
+}
+.footer_logo img
+{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.footer_copyright
+{
+    font-family: Comic Sans MS;
+}
+.footer_copyright p
+{
+    font-size: 12px;
+    color: rgba(204,0, 25, 1);
+    line-height: 16px;
+}
+#footer_copyright
+{
+    font-weight: bolder;
+}

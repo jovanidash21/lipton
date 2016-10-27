@@ -1,0 +1,100 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background-color: rgba(192, 192, 192, 1);
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+}
+.maincontent
+{
+	width: 400px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+    border: 1px solid rgba(249, 82, 82, 1);
+    border-radius: 20px;
+    padding-bottom: 10px;
+  	position: fixed;
+    left: 50%;
+    top: 50%;
+  	transform: translate(-50%, -50%);
+}
+.main_header
+{
+	border-radius: 20px 20px 0px 0px;
+	background-color: rgba(249, 82, 82, 1);
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#header
+{
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+}
+.oddevenform
+{
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+    font-size: 18px;
+}
+.oddevenform form input[type=text]
+{
+	width: 100%;
+	background-color: #ddd;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.oddevenform form input[type=text]:focus
+{
+	outline: none;
+	border: 1px solid rgba(249, 82, 82, 0.7);
+}
+.oddevenform form input[type="submit"],
+.oddevenform form input[type="reset"]
+{
+	cursor: pointer;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 6px 0;
+	width: 150px;
+	border-radius: 2px;
+	margin-top: 8px;
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+.oddevenform form input[type="submit"]
+{
+	background: #33cc77;
+	border: 1px solid #33cc77;;
+}
+.oddevenform form input[type="reset"]
+{
+	background: rgba(249, 82, 82, 1);
+	border: 1px solid rgba(249, 82, 82, 1);
+}
+.oddevenform form input[type="submit"]:focus,
+.oddevenform form input[type="reset"]:focus
+{
+	outline: none;
+	box-shadow:0px 0px 5px 0px #111111;
+}
+p#answer
+{
+	min-height: 24px;
+	font-size: 18px;
+	text-align: center;
+}

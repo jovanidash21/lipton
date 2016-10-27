@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Odd or Even</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="favicon.ico" type="image/ico">
+		<script src="JS/script.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/Style.css" />
+	</head>
+	<body>
+		<section class="maincontent">
+			<div class="main_header">
+				<p id="header">Odd or Even<br> Integer</p>
+			</div>
+			<div class="oddevenform">
+				<form name="oddevenform" method="get" action="#" onsubmit="return myValidation()">
+					<label for="number">Enter an Integer:</label><br>
+						<input type="text" id="number" name="number" maxlength="6"/><br>
+					<p id="answer"></p>
+					<input type="submit" value="Enter"/>
+					<input type="reset" value="Reset" onclick="myClear()"/>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
