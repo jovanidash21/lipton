@@ -3,7 +3,7 @@
 ![](https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/3.png)
 
 ## Website
-- [warguez](http://adlipton.cpecareer.com/)
+- [lipton](http://adlipton.cpecareer.com/)
 
 ## Links
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
