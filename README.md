@@ -1,3 +1,5 @@
+# Lipton
+---
 ## Screenshots
 <p align="center">
   <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/1.png">
