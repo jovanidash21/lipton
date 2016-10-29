@@ -1,7 +1,13 @@
 ## Screenshots
-![](https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/1.png)
-![](https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/2.png)
-![](https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/3.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/1.png">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/2.png">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/3.png">
+</p>
 
 ## Website
 - [lipton](http://adlipton.cpecareer.com/)
