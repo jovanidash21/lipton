@@ -2,13 +2,7 @@
 ---
 ## Screenshots
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/1.png">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/2.png">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/lipton/Images/Screenshots/3.png">
+  <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/screenshot.png">
 </p>
 
 ## Website
