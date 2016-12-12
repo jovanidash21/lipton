@@ -1,6 +1,6 @@
 # Lipton
 ---
-## Screenshots
+## Screenshot
 <p align="center">
   <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/screenshot.png">
 </p>
