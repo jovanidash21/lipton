@@ -6,7 +6,7 @@
 </p>
 
 ## Website
-- [lipton](http://adlipton.cpecareer.com/)
+- [lipton](https://jovanidash21.github.io/lipton/)
 
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
