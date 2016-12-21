@@ -5,8 +5,8 @@
   <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/screenshot.png">
 </p>
 
-## Website
-- [lipton](https://jovanidash21.github.io/lipton/)
+## Credit
+* [Lipton Website](http://www.liptontea.com/)
 
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
