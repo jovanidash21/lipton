@@ -5,6 +5,13 @@
   <img src="https://raw.githubusercontent.com/jovanidash21/lipton/master/screenshot.png">
 </p>
 
+## Installation
+* Clone or download this repository.
+```
+git clone https://github.com/jovanidash21/lipton.git
+```
+* Open `index.html` in browser.
+
 ## Credit
 * [Lipton Website](http://www.liptontea.com/)
 
